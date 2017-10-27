@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addons>
-<addon id="plugin.repository.alekstest" name="Repository Aleks Test" version="1.0.0" provider-name="Only Me Team">
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.repository.alekstest" name="Repository Aleks Test" provider-name="Only Me Team" version="1.0.0">
     <requires>
-        <import addon="xbmc.python" version="2.20.0"/>
-        <import addon="script.module.elementtree" version="1.2.8"/>
-        <import addon="script.module.simplejson" version="3.3.0"/>
-        <import addon="script.module.m3u8" version="0.2.2"/>
-        <import addon="script.module.dateutil" version="2.4.2"/>
+        <import addon="xbmc.python" version="2.20.0" />
+        <import addon="script.module.elementtree" version="1.2.8" />
+        <import addon="script.module.simplejson" version="3.3.0" />
+        <import addon="script.module.m3u8" version="0.2.2" />
+        <import addon="script.module.dateutil" version="2.4.2" />
         <import addon="script.module.requests" version="2.9.1" />
     </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
+    <extension library="addon.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -23,7 +22,7 @@
             your country) to use this Addon. Avaliable in English and Spanish
         </disclaimer>
         <platform>all</platform>
-        <license></license>
+        <license />
         <email>support@support.support</email>
         <website>https://test.test.test</website>
     </extension>
@@ -32,6 +31,4 @@
         <checksum>http://kodi-plugin.we.klubok.bisound.com/addons/addons.xml.md5</checksum>
         <datadir>http://kodi-plugin.we.klubok.bisound.com/addons/</datadir>
     </extension>
-</addon>
-
-</addons>
+</addon></addons>
